@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AD0808A1E0B5FC000400079 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD080891E0B5FC000400079 /* AppDelegate.m */; };
+		4AD0808D1E0B5FC000400079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD0808C1E0B5FC000400079 /* main.m */; };
+		4AD0808F1E0B5FC000400079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD0808E1E0B5FC000400079 /* Assets.xcassets */; };
+		4AD080921E0B5FC000400079 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AD080901E0B5FC000400079 /* MainMenu.xib */; };
+		4AD0809D1E0B5FC000400079 /* MSNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD0809C1E0B5FC000400079 /* MSNetworkTests.m */; };
+		4AD080A81E0B5FC000400079 /* MSNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD080A71E0B5FC000400079 /* MSNetworkUITests.m */; };
+		4AD080B81E0B60E200400079 /* MSNetworkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD080B71E0B60E200400079 /* MSNetworkTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AD080991E0B5FC000400079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AD0807D1E0B5FC000400079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AD080841E0B5FC000400079;
+			remoteInfo = MSNetwork;
+		};
+		4AD080A41E0B5FC000400079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AD0807D1E0B5FC000400079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AD080841E0B5FC000400079;
+			remoteInfo = MSNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AD080851E0B5FC000400079 /* MSNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD080881E0B5FC000400079 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AD080891E0B5FC000400079 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AD0808C1E0B5FC000400079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AD0808E1E0B5FC000400079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AD080911E0B5FC000400079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4AD080931E0B5FC000400079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD080981E0B5FC000400079 /* MSNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD0809C1E0B5FC000400079 /* MSNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSNetworkTests.m; sourceTree = "<group>"; };
+		4AD0809E1E0B5FC000400079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD080A31E0B5FC000400079 /* MSNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD080A71E0B5FC000400079 /* MSNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSNetworkUITests.m; sourceTree = "<group>"; };
+		4AD080A91E0B5FC000400079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD080B61E0B60E200400079 /* MSNetworkTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNetworkTest.h; sourceTree = "<group>"; };
+		4AD080B71E0B60E200400079 /* MSNetworkTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNetworkTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AD080821E0B5FC000400079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD080951E0B5FC000400079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD080A01E0B5FC000400079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AD0807C1E0B5FC000400079 = {
+			isa = PBXGroup;
+			children = (
+				4AD080871E0B5FC000400079 /* MSNetwork */,
+				4AD0809B1E0B5FC000400079 /* MSNetworkTests */,
+				4AD080A61E0B5FC000400079 /* MSNetworkUITests */,
+				4AD080861E0B5FC000400079 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AD080861E0B5FC000400079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AD080851E0B5FC000400079 /* MSNetwork.app */,
+				4AD080981E0B5FC000400079 /* MSNetworkTests.xctest */,
+				4AD080A31E0B5FC000400079 /* MSNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AD080871E0B5FC000400079 /* MSNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				4AD080881E0B5FC000400079 /* AppDelegate.h */,
+				4AD080891E0B5FC000400079 /* AppDelegate.m */,
+				4AD080B51E0B60C400400079 /* Classes */,
+				4AD0808E1E0B5FC000400079 /* Assets.xcassets */,
+				4AD080901E0B5FC000400079 /* MainMenu.xib */,
+				4AD080931E0B5FC000400079 /* Info.plist */,
+				4AD0808B1E0B5FC000400079 /* Supporting Files */,
+			);
+			path = MSNetwork;
+			sourceTree = "<group>";
+		};
+		4AD0808B1E0B5FC000400079 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AD0808C1E0B5FC000400079 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AD0809B1E0B5FC000400079 /* MSNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AD0809C1E0B5FC000400079 /* MSNetworkTests.m */,
+				4AD0809E1E0B5FC000400079 /* Info.plist */,
+			);
+			path = MSNetworkTests;
+			sourceTree = "<group>";
+		};
+		4AD080A61E0B5FC000400079 /* MSNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AD080A71E0B5FC000400079 /* MSNetworkUITests.m */,
+				4AD080A91E0B5FC000400079 /* Info.plist */,
+			);
+			path = MSNetworkUITests;
+			sourceTree = "<group>";
+		};
+		4AD080B51E0B60C400400079 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4AD080B61E0B60E200400079 /* MSNetworkTest.h */,
+				4AD080B71E0B60E200400079 /* MSNetworkTest.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AD080841E0B5FC000400079 /* MSNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD080AC1E0B5FC000400079 /* Build configuration list for PBXNativeTarget "MSNetwork" */;
+			buildPhases = (
+				4AD080811E0B5FC000400079 /* Sources */,
+				4AD080821E0B5FC000400079 /* Frameworks */,
+				4AD080831E0B5FC000400079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSNetwork;
+			productName = MSNetwork;
+			productReference = 4AD080851E0B5FC000400079 /* MSNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AD080971E0B5FC000400079 /* MSNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD080AF1E0B5FC000400079 /* Build configuration list for PBXNativeTarget "MSNetworkTests" */;
+			buildPhases = (
+				4AD080941E0B5FC000400079 /* Sources */,
+				4AD080951E0B5FC000400079 /* Frameworks */,
+				4AD080961E0B5FC000400079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AD0809A1E0B5FC000400079 /* PBXTargetDependency */,
+			);
+			name = MSNetworkTests;
+			productName = MSNetworkTests;
+			productReference = 4AD080981E0B5FC000400079 /* MSNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AD080A21E0B5FC000400079 /* MSNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD080B21E0B5FC000400079 /* Build configuration list for PBXNativeTarget "MSNetworkUITests" */;
+			buildPhases = (
+				4AD0809F1E0B5FC000400079 /* Sources */,
+				4AD080A01E0B5FC000400079 /* Frameworks */,
+				4AD080A11E0B5FC000400079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AD080A51E0B5FC000400079 /* PBXTargetDependency */,
+			);
+			name = MSNetworkUITests;
+			productName = MSNetworkUITests;
+			productReference = 4AD080A31E0B5FC000400079 /* MSNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AD0807D1E0B5FC000400079 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mosai;
+				TargetAttributes = {
+					4AD080841E0B5FC000400079 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PZB629Z2FZ;
+						ProvisioningStyle = Automatic;
+					};
+					4AD080971E0B5FC000400079 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PZB629Z2FZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4AD080841E0B5FC000400079;
+					};
+					4AD080A21E0B5FC000400079 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PZB629Z2FZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4AD080841E0B5FC000400079;
+					};
+				};
+			};
+			buildConfigurationList = 4AD080801E0B5FC000400079 /* Build configuration list for PBXProject "MSNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AD0807C1E0B5FC000400079;
+			productRefGroup = 4AD080861E0B5FC000400079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AD080841E0B5FC000400079 /* MSNetwork */,
+				4AD080971E0B5FC000400079 /* MSNetworkTests */,
+				4AD080A21E0B5FC000400079 /* MSNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AD080831E0B5FC000400079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD0808F1E0B5FC000400079 /* Assets.xcassets in Resources */,
+				4AD080921E0B5FC000400079 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD080961E0B5FC000400079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD080A11E0B5FC000400079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AD080811E0B5FC000400079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD0808D1E0B5FC000400079 /* main.m in Sources */,
+				4AD080B81E0B60E200400079 /* MSNetworkTest.m in Sources */,
+				4AD0808A1E0B5FC000400079 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD080941E0B5FC000400079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD0809D1E0B5FC000400079 /* MSNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD0809F1E0B5FC000400079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD080A81E0B5FC000400079 /* MSNetworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AD0809A1E0B5FC000400079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AD080841E0B5FC000400079 /* MSNetwork */;
+			targetProxy = 4AD080991E0B5FC000400079 /* PBXContainerItemProxy */;
+		};
+		4AD080A51E0B5FC000400079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AD080841E0B5FC000400079 /* MSNetwork */;
+			targetProxy = 4AD080A41E0B5FC000400079 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AD080901E0B5FC000400079 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AD080911E0B5FC000400079 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AD080AA1E0B5FC000400079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4AD080AB1E0B5FC000400079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4AD080AD1E0B5FC000400079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				INFOPLIST_FILE = MSNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leikai.MSNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AD080AE1E0B5FC000400079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				INFOPLIST_FILE = MSNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leikai.MSNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AD080B01E0B5FC000400079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				INFOPLIST_FILE = MSNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leikai.MSNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSNetwork.app/Contents/MacOS/MSNetwork";
+			};
+			name = Debug;
+		};
+		4AD080B11E0B5FC000400079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				INFOPLIST_FILE = MSNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leikai.MSNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSNetwork.app/Contents/MacOS/MSNetwork";
+			};
+			name = Release;
+		};
+		4AD080B31E0B5FC000400079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				INFOPLIST_FILE = MSNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leikai.MSNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MSNetwork;
+			};
+			name = Debug;
+		};
+		4AD080B41E0B5FC000400079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				INFOPLIST_FILE = MSNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leikai.MSNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MSNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AD080801E0B5FC000400079 /* Build configuration list for PBXProject "MSNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD080AA1E0B5FC000400079 /* Debug */,
+				4AD080AB1E0B5FC000400079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD080AC1E0B5FC000400079 /* Build configuration list for PBXNativeTarget "MSNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD080AD1E0B5FC000400079 /* Debug */,
+				4AD080AE1E0B5FC000400079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD080AF1E0B5FC000400079 /* Build configuration list for PBXNativeTarget "MSNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD080B01E0B5FC000400079 /* Debug */,
+				4AD080B11E0B5FC000400079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD080B21E0B5FC000400079 /* Build configuration list for PBXNativeTarget "MSNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD080B31E0B5FC000400079 /* Debug */,
+				4AD080B41E0B5FC000400079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AD0807D1E0B5FC000400079 /* Project object */;
+}
