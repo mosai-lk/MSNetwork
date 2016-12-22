@@ -6,6 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4AD0821F1E0B877100400079 /* MSNetAgg */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AD082201E0B877100400079 /* Build configuration list for PBXAggregateTarget "MSNetAgg" */;
+			buildPhases = (
+				4AD082271E0B878800400079 /* ShellScript */,
+			);
+			dependencies = (
+				4AD082261E0B878600400079 /* PBXTargetDependency */,
+			);
+			name = MSNetAgg;
+			productName = MSNetAgg;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		4AD0808A1E0B5FC000400079 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD080891E0B5FC000400079 /* AppDelegate.m */; };
 		4AD0808D1E0B5FC000400079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD0808C1E0B5FC000400079 /* main.m */; };
@@ -14,6 +29,10 @@
 		4AD0809D1E0B5FC000400079 /* MSNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD0809C1E0B5FC000400079 /* MSNetworkTests.m */; };
 		4AD080A81E0B5FC000400079 /* MSNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD080A71E0B5FC000400079 /* MSNetworkUITests.m */; };
 		4AD080B81E0B60E200400079 /* MSNetworkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD080B71E0B60E200400079 /* MSNetworkTest.m */; };
+		4AD082111E0B875800400079 /* MSNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD082081E0B875800400079 /* MSNet.framework */; };
+		4AD082161E0B875800400079 /* MSNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD082151E0B875800400079 /* MSNetTests.m */; };
+		4AD082231E0B877A00400079 /* MSNetworkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD080B61E0B60E200400079 /* MSNetworkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AD082241E0B877A00400079 /* MSNetworkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD080B71E0B60E200400079 /* MSNetworkTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +49,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4AD080841E0B5FC000400079;
 			remoteInfo = MSNetwork;
+		};
+		4AD082121E0B875800400079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AD0807D1E0B5FC000400079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AD082071E0B875800400079;
+			remoteInfo = MSNet;
+		};
+		4AD082251E0B878600400079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AD0807D1E0B5FC000400079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AD082071E0B875800400079;
+			remoteInfo = MSNet;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,6 +82,12 @@
 		4AD080A91E0B5FC000400079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AD080B61E0B60E200400079 /* MSNetworkTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNetworkTest.h; sourceTree = "<group>"; };
 		4AD080B71E0B60E200400079 /* MSNetworkTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNetworkTest.m; sourceTree = "<group>"; };
+		4AD082081E0B875800400079 /* MSNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD0820A1E0B875800400079 /* MSNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSNet.h; sourceTree = "<group>"; };
+		4AD0820B1E0B875800400079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD082101E0B875800400079 /* MSNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD082151E0B875800400079 /* MSNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSNetTests.m; sourceTree = "<group>"; };
+		4AD082171E0B875800400079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +112,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4AD082041E0B875800400079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD0820D1E0B875800400079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD082111E0B875800400079 /* MSNet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +136,8 @@
 				4AD080871E0B5FC000400079 /* MSNetwork */,
 				4AD0809B1E0B5FC000400079 /* MSNetworkTests */,
 				4AD080A61E0B5FC000400079 /* MSNetworkUITests */,
+				4AD082091E0B875800400079 /* MSNet */,
+				4AD082141E0B875800400079 /* MSNetTests */,
 				4AD080861E0B5FC000400079 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +148,8 @@
 				4AD080851E0B5FC000400079 /* MSNetwork.app */,
 				4AD080981E0B5FC000400079 /* MSNetworkTests.xctest */,
 				4AD080A31E0B5FC000400079 /* MSNetworkUITests.xctest */,
+				4AD082081E0B875800400079 /* MSNet.framework */,
+				4AD082101E0B875800400079 /* MSNetTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,7 +203,36 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		4AD082091E0B875800400079 /* MSNet */ = {
+			isa = PBXGroup;
+			children = (
+				4AD0820A1E0B875800400079 /* MSNet.h */,
+				4AD0820B1E0B875800400079 /* Info.plist */,
+			);
+			path = MSNet;
+			sourceTree = "<group>";
+		};
+		4AD082141E0B875800400079 /* MSNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AD082151E0B875800400079 /* MSNetTests.m */,
+				4AD082171E0B875800400079 /* Info.plist */,
+			);
+			path = MSNetTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AD082051E0B875800400079 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD082231E0B877A00400079 /* MSNetworkTest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4AD080841E0B5FC000400079 /* MSNetwork */ = {
@@ -201,6 +288,42 @@
 			productReference = 4AD080A31E0B5FC000400079 /* MSNetworkUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		4AD082071E0B875800400079 /* MSNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD0821D1E0B875800400079 /* Build configuration list for PBXNativeTarget "MSNet" */;
+			buildPhases = (
+				4AD082031E0B875800400079 /* Sources */,
+				4AD082041E0B875800400079 /* Frameworks */,
+				4AD082051E0B875800400079 /* Headers */,
+				4AD082061E0B875800400079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSNet;
+			productName = MSNet;
+			productReference = 4AD082081E0B875800400079 /* MSNet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4AD0820F1E0B875800400079 /* MSNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD0821E1E0B875800400079 /* Build configuration list for PBXNativeTarget "MSNetTests" */;
+			buildPhases = (
+				4AD0820C1E0B875800400079 /* Sources */,
+				4AD0820D1E0B875800400079 /* Frameworks */,
+				4AD0820E1E0B875800400079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AD082131E0B875800400079 /* PBXTargetDependency */,
+			);
+			name = MSNetTests;
+			productName = MSNetTests;
+			productReference = 4AD082101E0B875800400079 /* MSNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,6 +350,21 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4AD080841E0B5FC000400079;
 					};
+					4AD082071E0B875800400079 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PZB629Z2FZ;
+						ProvisioningStyle = Automatic;
+					};
+					4AD0820F1E0B875800400079 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PZB629Z2FZ;
+						ProvisioningStyle = Automatic;
+					};
+					4AD0821F1E0B877100400079 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PZB629Z2FZ;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 4AD080801E0B5FC000400079 /* Build configuration list for PBXProject "MSNetwork" */;
@@ -245,6 +383,9 @@
 				4AD080841E0B5FC000400079 /* MSNetwork */,
 				4AD080971E0B5FC000400079 /* MSNetworkTests */,
 				4AD080A21E0B5FC000400079 /* MSNetworkUITests */,
+				4AD082071E0B875800400079 /* MSNet */,
+				4AD0820F1E0B875800400079 /* MSNetTests */,
+				4AD0821F1E0B877100400079 /* MSNetAgg */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +414,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4AD082061E0B875800400079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD0820E1E0B875800400079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AD082271E0B878800400079 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n\n# 例如: FMK_NAME = \"MyFramework\"\n\nFMK_NAME=\"MSNet\"\n\n# Install dir will be the final output to the framework.\n\n# The following line create it in the root folder of the current project.\n\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\n\nWRK_DIR=build\n\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\n\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n\n# Clean and Building both architectures.\n\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\n\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\n\nif [ -d \"${INSTALL_DIR}\" ]\n\nthen\n\nrm -rf \"${INSTALL_DIR}\"\n\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\n\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AD080811E0B5FC000400079 /* Sources */ = {
@@ -302,6 +473,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4AD082031E0B875800400079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD082241E0B877A00400079 /* MSNetworkTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD0820C1E0B875800400079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD082161E0B875800400079 /* MSNetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -314,6 +501,16 @@
 			isa = PBXTargetDependency;
 			target = 4AD080841E0B5FC000400079 /* MSNetwork */;
 			targetProxy = 4AD080A41E0B5FC000400079 /* PBXContainerItemProxy */;
+		};
+		4AD082131E0B875800400079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AD082071E0B875800400079 /* MSNet */;
+			targetProxy = 4AD082121E0B875800400079 /* PBXContainerItemProxy */;
+		};
+		4AD082261E0B878600400079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AD082071E0B875800400079 /* MSNet */;
+			targetProxy = 4AD082251E0B878600400079 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -496,6 +693,102 @@
 			};
 			name = Release;
 		};
+		4AD082191E0B875800400079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MSNet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leikai.MSNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AD0821A1E0B875800400079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MSNet/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leikai.MSNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AD0821B1E0B875800400079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				INFOPLIST_FILE = MSNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leikai.MSNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AD0821C1E0B875800400079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				INFOPLIST_FILE = MSNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leikai.MSNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AD082211E0B877100400079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AD082221E0B877100400079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PZB629Z2FZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -534,6 +827,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		4AD0821D1E0B875800400079 /* Build configuration list for PBXNativeTarget "MSNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD082191E0B875800400079 /* Debug */,
+				4AD0821A1E0B875800400079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AD0821E1E0B875800400079 /* Build configuration list for PBXNativeTarget "MSNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD0821B1E0B875800400079 /* Debug */,
+				4AD0821C1E0B875800400079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AD082201E0B877100400079 /* Build configuration list for PBXAggregateTarget "MSNetAgg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD082211E0B877100400079 /* Debug */,
+				4AD082221E0B877100400079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
